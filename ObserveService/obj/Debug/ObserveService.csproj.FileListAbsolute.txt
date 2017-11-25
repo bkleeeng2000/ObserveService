@@ -1,0 +1,10 @@
+D:\0. 개인업무\00. 개발\ObserveService\ObserveService\bin\Debug\ObserveService.exe.config
+D:\0. 개인업무\00. 개발\ObserveService\ObserveService\bin\Debug\ObserveService.exe
+D:\0. 개인업무\00. 개발\ObserveService\ObserveService\bin\Debug\ObserveService.pdb
+D:\0. 개인업무\00. 개발\ObserveService\ObserveService\obj\Debug\ObserveService.csprojResolveAssemblyReference.cache
+D:\0. 개인업무\00. 개발\ObserveService\ObserveService\obj\Debug\ObserveService.Properties.Resources.resources
+D:\0. 개인업무\00. 개발\ObserveService\ObserveService\obj\Debug\ObserveService.csproj.GenerateResource.Cache
+D:\0. 개인업무\00. 개발\ObserveService\ObserveService\obj\Debug\ObserveService.csproj.CoreCompileInputs.cache
+D:\0. 개인업무\00. 개발\ObserveService\ObserveService\obj\Debug\ObserveService.exe
+D:\0. 개인업무\00. 개발\ObserveService\ObserveService\obj\Debug\ObserveService.pdb
+D:\0. 개인업무\00. 개발\ObserveService\ObserveService\obj\Debug\ObserveService.Form1.resources

@@ -1,0 +1,123 @@
+﻿어셈블리 'D:\0. 개인업무\00. 개발\ObserveService\ServiceA\bin\Debug\ServiceA.exe'을(를) 설치하고 있습니다.
+영향을 받는 매개 변수:
+   logtoconsole = 
+   logfile = D:\0. 개인업무\00. 개발\ObserveService\ServiceA\bin\Debug\ServiceA.InstallLog
+   assemblypath = D:\0. 개인업무\00. 개발\ObserveService\ServiceA\bin\Debug\ServiceA.exe
+ServiceA 서비스를 설치하고 있습니다...
+EventLog 소스 ServiceA을(를) 로그 Application에 만들고 있습니다...
+어셈블리 'D:\0. 개인업무\00. 개발\ObserveService\ServiceA\bin\Debug\ServiceA.exe'을(를) 롤백하고 있습니다.
+영향을 받는 매개 변수:
+   logtoconsole = 
+   logfile = D:\0. 개인업무\00. 개발\ObserveService\ServiceA\bin\Debug\ServiceA.InstallLog
+   assemblypath = D:\0. 개인업무\00. 개발\ObserveService\ServiceA\bin\Debug\ServiceA.exe
+이벤트 로그를 소스 ServiceA의 이전 상태로 복원하고 있습니다.
+System.Diagnostics.EventLogInstaller 설치 관리자의 Rollback 단계를 진행하는 동안 예외가 발생했습니다.
+System.Security.SecurityException: 소스를 찾을 수 없습니다. 일부 또는 전체 이벤트 로그를 검색하지 못했습니다. 액세스할 수 없는 로그: Security.
+설치의 Rollback 단계를 진행하는 동안 예외가 발생했습니다. 이 예외는 무시되고 롤백이 계속됩니다. 그러나 롤백이 완료된 후 컴퓨터를 초기 상태로 완전하게 되돌리지 못할 수 있습니다.
+어셈블리 'D:\0. 개인업무\00. 개발\ObserveService\ServiceA\bin\Debug\ServiceA.exe'을(를) 설치하고 있습니다.
+영향을 받는 매개 변수:
+   logtoconsole = 
+   logfile = D:\0. 개인업무\00. 개발\ObserveService\ServiceA\bin\Debug\ServiceA.InstallLog
+   assemblypath = D:\0. 개인업무\00. 개발\ObserveService\ServiceA\bin\Debug\ServiceA.exe
+ServiceA 서비스를 설치하고 있습니다...
+ServiceA 서비스가 설치되었습니다.
+EventLog 소스 ServiceA을(를) 로그 Application에 만들고 있습니다...
+어셈블리 'D:\0. 개인업무\00. 개발\ObserveService\ServiceA\bin\Debug\ServiceA.exe'을(를) 커밋하고 있습니다.
+영향을 받는 매개 변수:
+   logtoconsole = 
+   logfile = D:\0. 개인업무\00. 개발\ObserveService\ServiceA\bin\Debug\ServiceA.InstallLog
+   assemblypath = D:\0. 개인업무\00. 개발\ObserveService\ServiceA\bin\Debug\ServiceA.exe
+어셈블리 'D:\0. 개인업무\00. 개발\ObserveService\ServiceA\bin\Debug\ServiceA.exe'을(를) 제거하고 있습니다.
+영향을 받는 매개 변수:
+   logtoconsole = 
+   logfile = D:\0. 개인업무\00. 개발\ObserveService\ServiceA\bin\Debug\ServiceA.InstallLog
+   assemblypath = D:\0. 개인업무\00. 개발\ObserveService\ServiceA\bin\Debug\ServiceA.exe
+EventLog 소스 ServiceA을(를) 제거하고 있습니다.
+시스템에서 ServiceA 서비스를 제거하고 있습니다...
+ServiceA 서비스가 시스템에서 제거되었습니다.
+어셈블리 'D:\0. 개인업무\00. 개발\ObserveService\ServiceA\bin\Debug\ServiceA.exe'을(를) 설치하고 있습니다.
+영향을 받는 매개 변수:
+   logtoconsole = 
+   logfile = D:\0. 개인업무\00. 개발\ObserveService\ServiceA\bin\Debug\ServiceA.InstallLog
+   assemblypath = D:\0. 개인업무\00. 개발\ObserveService\ServiceA\bin\Debug\ServiceA.exe
+ServiceA 서비스를 설치하고 있습니다...
+EventLog 소스 ServiceA을(를) 로그 Application에 만들고 있습니다...
+어셈블리 'D:\0. 개인업무\00. 개발\ObserveService\ServiceA\bin\Debug\ServiceA.exe'을(를) 롤백하고 있습니다.
+영향을 받는 매개 변수:
+   logtoconsole = 
+   logfile = D:\0. 개인업무\00. 개발\ObserveService\ServiceA\bin\Debug\ServiceA.InstallLog
+   assemblypath = D:\0. 개인업무\00. 개발\ObserveService\ServiceA\bin\Debug\ServiceA.exe
+이벤트 로그를 소스 ServiceA의 이전 상태로 복원하고 있습니다.
+어셈블리 'D:\0. 개인업무\00. 개발\ObserveService\ServiceA\bin\Debug\ServiceA.exe'을(를) 설치하고 있습니다.
+영향을 받는 매개 변수:
+   logtoconsole = 
+   logfile = D:\0. 개인업무\00. 개발\ObserveService\ServiceA\bin\Debug\ServiceA.InstallLog
+   assemblypath = D:\0. 개인업무\00. 개발\ObserveService\ServiceA\bin\Debug\ServiceA.exe
+ServiceA 서비스를 설치하고 있습니다...
+EventLog 소스 ServiceA을(를) 로그 Application에 만들고 있습니다...
+어셈블리 'D:\0. 개인업무\00. 개발\ObserveService\ServiceA\bin\Debug\ServiceA.exe'을(를) 롤백하고 있습니다.
+영향을 받는 매개 변수:
+   logtoconsole = 
+   logfile = D:\0. 개인업무\00. 개발\ObserveService\ServiceA\bin\Debug\ServiceA.InstallLog
+   assemblypath = D:\0. 개인업무\00. 개발\ObserveService\ServiceA\bin\Debug\ServiceA.exe
+이벤트 로그를 소스 ServiceA의 이전 상태로 복원하고 있습니다.
+어셈블리 'D:\0. 개인업무\00. 개발\ObserveService\ServiceA\bin\Debug\ServiceA.exe'을(를) 설치하고 있습니다.
+영향을 받는 매개 변수:
+   logtoconsole = 
+   logfile = D:\0. 개인업무\00. 개발\ObserveService\ServiceA\bin\Debug\ServiceA.InstallLog
+   assemblypath = D:\0. 개인업무\00. 개발\ObserveService\ServiceA\bin\Debug\ServiceA.exe
+ServiceA 서비스를 설치하고 있습니다...
+EventLog 소스 ServiceA을(를) 로그 Application에 만들고 있습니다...
+어셈블리 'D:\0. 개인업무\00. 개발\ObserveService\ServiceA\bin\Debug\ServiceA.exe'을(를) 롤백하고 있습니다.
+영향을 받는 매개 변수:
+   logtoconsole = 
+   logfile = D:\0. 개인업무\00. 개발\ObserveService\ServiceA\bin\Debug\ServiceA.InstallLog
+   assemblypath = D:\0. 개인업무\00. 개발\ObserveService\ServiceA\bin\Debug\ServiceA.exe
+이벤트 로그를 소스 ServiceA의 이전 상태로 복원하고 있습니다.
+어셈블리 'D:\0. 개인업무\00. 개발\ObserveService\ServiceA\bin\Debug\ServiceA.exe'을(를) 설치하고 있습니다.
+영향을 받는 매개 변수:
+   logtoconsole = 
+   logfile = D:\0. 개인업무\00. 개발\ObserveService\ServiceA\bin\Debug\ServiceA.InstallLog
+   assemblypath = D:\0. 개인업무\00. 개발\ObserveService\ServiceA\bin\Debug\ServiceA.exe
+ServiceA 서비스를 설치하고 있습니다...
+EventLog 소스 ServiceA을(를) 로그 Application에 만들고 있습니다...
+어셈블리 'D:\0. 개인업무\00. 개발\ObserveService\ServiceA\bin\Debug\ServiceA.exe'을(를) 롤백하고 있습니다.
+영향을 받는 매개 변수:
+   logtoconsole = 
+   logfile = D:\0. 개인업무\00. 개발\ObserveService\ServiceA\bin\Debug\ServiceA.InstallLog
+   assemblypath = D:\0. 개인업무\00. 개발\ObserveService\ServiceA\bin\Debug\ServiceA.exe
+이벤트 로그를 소스 ServiceA의 이전 상태로 복원하고 있습니다.
+어셈블리 'D:\0. 개인업무\00. 개발\ObserveService\ServiceA\bin\Debug\ServiceA.exe'을(를) 설치하고 있습니다.
+영향을 받는 매개 변수:
+   logtoconsole = 
+   logfile = D:\0. 개인업무\00. 개발\ObserveService\ServiceA\bin\Debug\ServiceA.InstallLog
+   assemblypath = D:\0. 개인업무\00. 개발\ObserveService\ServiceA\bin\Debug\ServiceA.exe
+ServiceA 서비스를 설치하고 있습니다...
+ServiceA 서비스가 설치되었습니다.
+EventLog 소스 ServiceA을(를) 로그 Application에 만들고 있습니다...
+어셈블리 'D:\0. 개인업무\00. 개발\ObserveService\ServiceA\bin\Debug\ServiceA.exe'을(를) 커밋하고 있습니다.
+영향을 받는 매개 변수:
+   logtoconsole = 
+   logfile = D:\0. 개인업무\00. 개발\ObserveService\ServiceA\bin\Debug\ServiceA.InstallLog
+   assemblypath = D:\0. 개인업무\00. 개발\ObserveService\ServiceA\bin\Debug\ServiceA.exe
+어셈블리 'D:\0. 개인업무\00. 개발\ObserveService\ServiceA\bin\Debug\ServiceA.exe'을(를) 제거하고 있습니다.
+영향을 받는 매개 변수:
+   logtoconsole = 
+   logfile = D:\0. 개인업무\00. 개발\ObserveService\ServiceA\bin\Debug\ServiceA.InstallLog
+   assemblypath = D:\0. 개인업무\00. 개발\ObserveService\ServiceA\bin\Debug\ServiceA.exe
+EventLog 소스 ServiceA을(를) 제거하고 있습니다.
+시스템에서 ServiceA 서비스를 제거하고 있습니다...
+ServiceA 서비스가 시스템에서 제거되었습니다.
+어셈블리 'D:\0. 개인업무\00. 개발\ObserveService\ServiceA\bin\Debug\ServiceA.exe'을(를) 설치하고 있습니다.
+영향을 받는 매개 변수:
+   logtoconsole = 
+   logfile = D:\0. 개인업무\00. 개발\ObserveService\ServiceA\bin\Debug\ServiceA.InstallLog
+   assemblypath = D:\0. 개인업무\00. 개발\ObserveService\ServiceA\bin\Debug\ServiceA.exe
+ServiceA 서비스를 설치하고 있습니다...
+ServiceA 서비스가 설치되었습니다.
+EventLog 소스 ServiceA을(를) 로그 Application에 만들고 있습니다...
+어셈블리 'D:\0. 개인업무\00. 개발\ObserveService\ServiceA\bin\Debug\ServiceA.exe'을(를) 커밋하고 있습니다.
+영향을 받는 매개 변수:
+   logtoconsole = 
+   logfile = D:\0. 개인업무\00. 개발\ObserveService\ServiceA\bin\Debug\ServiceA.InstallLog
+   assemblypath = D:\0. 개인업무\00. 개발\ObserveService\ServiceA\bin\Debug\ServiceA.exe

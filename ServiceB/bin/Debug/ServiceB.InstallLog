@@ -1,0 +1,34 @@
+﻿어셈블리 'D:\0. 개인업무\00. 개발\ObserveService\ServiceB\bin\Debug\ServiceB.exe'을(를) 설치하고 있습니다.
+영향을 받는 매개 변수:
+   logtoconsole = 
+   logfile = D:\0. 개인업무\00. 개발\ObserveService\ServiceB\bin\Debug\ServiceB.InstallLog
+   assemblypath = D:\0. 개인업무\00. 개발\ObserveService\ServiceB\bin\Debug\ServiceB.exe
+ServiceB 서비스를 설치하고 있습니다...
+ServiceB 서비스가 설치되었습니다.
+EventLog 소스 ServiceB을(를) 로그 Application에 만들고 있습니다...
+어셈블리 'D:\0. 개인업무\00. 개발\ObserveService\ServiceB\bin\Debug\ServiceB.exe'을(를) 커밋하고 있습니다.
+영향을 받는 매개 변수:
+   logtoconsole = 
+   logfile = D:\0. 개인업무\00. 개발\ObserveService\ServiceB\bin\Debug\ServiceB.InstallLog
+   assemblypath = D:\0. 개인업무\00. 개발\ObserveService\ServiceB\bin\Debug\ServiceB.exe
+어셈블리 'D:\0. 개인업무\00. 개발\ObserveService\ServiceB\bin\Debug\ServiceB.exe'을(를) 제거하고 있습니다.
+영향을 받는 매개 변수:
+   logtoconsole = 
+   logfile = D:\0. 개인업무\00. 개발\ObserveService\ServiceB\bin\Debug\ServiceB.InstallLog
+   assemblypath = D:\0. 개인업무\00. 개발\ObserveService\ServiceB\bin\Debug\ServiceB.exe
+EventLog 소스 ServiceB을(를) 제거하고 있습니다.
+시스템에서 ServiceB 서비스를 제거하고 있습니다...
+ServiceB 서비스가 시스템에서 제거되었습니다.
+어셈블리 'D:\0. 개인업무\00. 개발\ObserveService\ServiceB\bin\Debug\ServiceB.exe'을(를) 설치하고 있습니다.
+영향을 받는 매개 변수:
+   logtoconsole = 
+   logfile = D:\0. 개인업무\00. 개발\ObserveService\ServiceB\bin\Debug\ServiceB.InstallLog
+   assemblypath = D:\0. 개인업무\00. 개발\ObserveService\ServiceB\bin\Debug\ServiceB.exe
+ServiceB 서비스를 설치하고 있습니다...
+ServiceB 서비스가 설치되었습니다.
+EventLog 소스 ServiceB을(를) 로그 Application에 만들고 있습니다...
+어셈블리 'D:\0. 개인업무\00. 개발\ObserveService\ServiceB\bin\Debug\ServiceB.exe'을(를) 커밋하고 있습니다.
+영향을 받는 매개 변수:
+   logtoconsole = 
+   logfile = D:\0. 개인업무\00. 개발\ObserveService\ServiceB\bin\Debug\ServiceB.InstallLog
+   assemblypath = D:\0. 개인업무\00. 개발\ObserveService\ServiceB\bin\Debug\ServiceB.exe

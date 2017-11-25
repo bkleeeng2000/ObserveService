@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserveService", "ObserveService\ObserveService.csproj", "{71F512A2-D63D-418A-BE72-63133F87ED4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceA", "ServiceA\ServiceA.csproj", "{CA709E5C-9B27-4841-80F5-14F01DF38311}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceB", "ServiceB\ServiceB.csproj", "{E64CEDD5-EA3B-4866-B719-737FD3474C0A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71F512A2-D63D-418A-BE72-63133F87ED4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71F512A2-D63D-418A-BE72-63133F87ED4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71F512A2-D63D-418A-BE72-63133F87ED4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71F512A2-D63D-418A-BE72-63133F87ED4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA709E5C-9B27-4841-80F5-14F01DF38311}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA709E5C-9B27-4841-80F5-14F01DF38311}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA709E5C-9B27-4841-80F5-14F01DF38311}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA709E5C-9B27-4841-80F5-14F01DF38311}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E64CEDD5-EA3B-4866-B719-737FD3474C0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E64CEDD5-EA3B-4866-B719-737FD3474C0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E64CEDD5-EA3B-4866-B719-737FD3474C0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E64CEDD5-EA3B-4866-B719-737FD3474C0A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4869BADB-3DF9-40ED-8956-EED03478F221}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,9 @@
+D:\0. 개인업무\00. 개발\ObserveService\ServiceA\bin\Debug\ServiceA.exe.config
+D:\0. 개인업무\00. 개발\ObserveService\ServiceA\bin\Debug\ServiceA.exe
+D:\0. 개인업무\00. 개발\ObserveService\ServiceA\bin\Debug\ServiceA.pdb
+D:\0. 개인업무\00. 개발\ObserveService\ServiceA\obj\Debug\ServiceA.ProjectInstaller.resources
+D:\0. 개인업무\00. 개발\ObserveService\ServiceA\obj\Debug\ServiceA.csproj.GenerateResource.Cache
+D:\0. 개인업무\00. 개발\ObserveService\ServiceA\obj\Debug\ServiceA.csproj.CoreCompileInputs.cache
+D:\0. 개인업무\00. 개발\ObserveService\ServiceA\obj\Debug\ServiceA.exe
+D:\0. 개인업무\00. 개발\ObserveService\ServiceA\obj\Debug\ServiceA.pdb
+D:\0. 개인업무\00. 개발\ObserveService\ServiceA\obj\Debug\ServiceA.csprojResolveAssemblyReference.cache
