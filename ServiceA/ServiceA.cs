@@ -9,6 +9,7 @@ using System.ServiceProcess;
 using System.Text;
 using System.Threading.Tasks;
 using System.Timers;
+using System.Runtime.Remoting.Channels.Ipc;
 
 namespace ServiceA
 {

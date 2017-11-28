@@ -1,0 +1,7 @@
+D:\0. 개인업무\00. 개발\ObserveService\IpcServiceTest\bin\Debug\IpcServiceTest.exe.config
+D:\0. 개인업무\00. 개발\ObserveService\IpcServiceTest\bin\Debug\IpcServiceTest.exe
+D:\0. 개인업무\00. 개발\ObserveService\IpcServiceTest\bin\Debug\IpcServiceTest.pdb
+D:\0. 개인업무\00. 개발\ObserveService\IpcServiceTest\obj\Debug\IpcServiceTest.csprojResolveAssemblyReference.cache
+D:\0. 개인업무\00. 개발\ObserveService\IpcServiceTest\obj\Debug\IpcServiceTest.csproj.CoreCompileInputs.cache
+D:\0. 개인업무\00. 개발\ObserveService\IpcServiceTest\obj\Debug\IpcServiceTest.exe
+D:\0. 개인업무\00. 개발\ObserveService\IpcServiceTest\obj\Debug\IpcServiceTest.pdb
