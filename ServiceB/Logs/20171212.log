@@ -1,0 +1,10 @@
+[2017-12-12 11:19:01:497] ServiceB Start
+[2017-12-12 11:19:06:512] ServiceA : Running
+[2017-12-12 11:19:11:501] ServiceA : Running
+[2017-12-12 11:19:16:501] ServiceA : Running
+[2017-12-12 11:19:21:502] ServiceA : Running
+[2017-12-12 11:19:23:303] ServiceB Stop
+[2017-12-12 11:19:35:959] ServiceB Start
+[2017-12-12 11:19:40:967] ServiceA : Running
+[2017-12-12 11:19:45:961] ServiceA : Running
+[2017-12-12 11:19:46:423] ServiceB Stop

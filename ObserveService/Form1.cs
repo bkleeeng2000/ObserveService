@@ -15,7 +15,7 @@ namespace ObserveService
     {
         ServiceController serviceA = new ServiceController("ServiceA");
         ServiceController serviceB = new ServiceController("ServiceB");
-
+        
         private Timer timer= new Timer();
         public Form1()
         {

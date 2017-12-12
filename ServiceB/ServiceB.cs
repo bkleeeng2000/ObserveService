@@ -34,6 +34,7 @@ namespace ServiceB
         protected override void OnStop()
         {
             Log("ServiceB Stop");
+            
         }
 
         public string GetDateTime()

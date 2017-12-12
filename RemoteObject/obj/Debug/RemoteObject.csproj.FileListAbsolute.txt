@@ -1,0 +1,5 @@
+D:\0. 개인업무\00. 개발\ObserveService\RemoteObject\bin\Debug\RemoteObject.dll
+D:\0. 개인업무\00. 개발\ObserveService\RemoteObject\bin\Debug\RemoteObject.pdb
+D:\0. 개인업무\00. 개발\ObserveService\RemoteObject\obj\Debug\RemoteObject.csproj.CoreCompileInputs.cache
+D:\0. 개인업무\00. 개발\ObserveService\RemoteObject\obj\Debug\RemoteObject.dll
+D:\0. 개인업무\00. 개발\ObserveService\RemoteObject\obj\Debug\RemoteObject.pdb
