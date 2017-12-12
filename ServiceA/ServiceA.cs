@@ -45,7 +45,7 @@ namespace ServiceA
             RmtObject rmtObject = new RmtObject();
             ServiceController serviceController = new ServiceController("ServiceB");
             Log("ServiceB : "+serviceController.Status.ToString());
-            Log("Count : "+ rmtObject.Count);
+            Log("Count : "+ rmtObject.Count++);
 
             if (serviceController.Status.Equals(ServiceControllerStatus.Stopped))
                 serviceController.Start();

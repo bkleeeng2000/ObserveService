@@ -7,7 +7,11 @@ using System.Linq;
 using System.ServiceProcess;
 using System.Text;
 using System.Threading.Tasks;
+using System.Runtime.Remoting;
+using System.Runtime.Remoting.Channels;
+using System.Runtime.Remoting.Channels.Ipc;
 using System.Windows.Forms;
+using RemoteObject;
 
 namespace ObserveService
 {
@@ -20,6 +24,12 @@ namespace ObserveService
         public Form1()
         {
             InitializeComponent();
+
+            IpcClientChannel clientChannel = new IpcClientChannel();
+            ChannelServices.RegisterChannel(clientChannel,false);
+
+            RemotingConfiguration.RegisterWellKnownClientType(typeof(RmtObject), "ipc://remote/counter");
+
             timer.Interval = 1000;
             timer.Tick += Timer_Tick;
             timer.Start();

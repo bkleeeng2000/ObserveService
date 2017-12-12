@@ -3,6 +3,11 @@ using System.Diagnostics;
 using System.IO;
 using System.ServiceProcess;
 using System.Timers;
+using System.Runtime.Remoting.Channels.Ipc;
+using System.Runtime.Remoting.Channels;
+using System.Runtime.Remoting;
+
+using RemoteObject;
 
 namespace ServiceB
 {
@@ -16,6 +21,11 @@ namespace ServiceB
 
         protected override void OnStart(string[] args)
         {
+
+            //IpcServerChannel serverChannel = new IpcServerChannel("remote");
+            //ChannelServices.RegisterChannel(serverChannel, false);
+            //RemotingConfiguration.RegisterWellKnownServiceType(typeof(RmtObject), "counter", WellKnownObjectMode.SingleCall);
+
             Log("ServiceB Start");
             timer = new Timer(5 * 1000);  //interval = 5초마다 실행
             timer.Elapsed += Timer_Elapsed;
@@ -24,8 +34,11 @@ namespace ServiceB
 
         private void Timer_Elapsed(object sender, ElapsedEventArgs e)
         {
+            //RmtObject rmtObject = new RmtObject();
             ServiceController serviceController = new ServiceController("ServiceA");
+
             Log("ServiceA : " + serviceController.Status.ToString());
+            //Log("Count : " + rmtObject.Count);
             if (serviceController.Status.Equals(ServiceControllerStatus.Stopped))
                 serviceController.Start();
 

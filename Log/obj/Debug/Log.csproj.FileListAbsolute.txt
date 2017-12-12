@@ -1,0 +1,5 @@
+D:\0. 개인업무\00. 개발\ObserveService\Log\bin\Debug\Log.dll
+D:\0. 개인업무\00. 개발\ObserveService\Log\bin\Debug\Log.pdb
+D:\0. 개인업무\00. 개발\ObserveService\Log\obj\Debug\Log.csproj.CoreCompileInputs.cache
+D:\0. 개인업무\00. 개발\ObserveService\Log\obj\Debug\Log.dll
+D:\0. 개인업무\00. 개발\ObserveService\Log\obj\Debug\Log.pdb

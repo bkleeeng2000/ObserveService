@@ -7,3 +7,5 @@ D:\0. 개인업무\00. 개발\ObserveService\ServiceB\obj\Debug\ServiceB.pdb
 D:\0. 개인업무\00. 개발\ObserveService\ServiceB\obj\Debug\ServiceB.ProjectInstaller.resources
 D:\0. 개인업무\00. 개발\ObserveService\ServiceB\obj\Debug\ServiceB.csproj.GenerateResource.Cache
 D:\0. 개인업무\00. 개발\ObserveService\ServiceB\obj\Debug\ServiceB.csprojResolveAssemblyReference.cache
+D:\0. 개인업무\00. 개발\ObserveService\ServiceB\bin\Debug\RemoteObject.dll
+D:\0. 개인업무\00. 개발\ObserveService\ServiceB\bin\Debug\RemoteObject.pdb
