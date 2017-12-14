@@ -3,7 +3,4 @@ D:\0. 개인업무\00. 개발\ObserveService\RemoteObject\bin\Debug\RemoteObject
 D:\0. 개인업무\00. 개발\ObserveService\RemoteObject\obj\Debug\RemoteObject.csproj.CoreCompileInputs.cache
 D:\0. 개인업무\00. 개발\ObserveService\RemoteObject\obj\Debug\RemoteObject.dll
 D:\0. 개인업무\00. 개발\ObserveService\RemoteObject\obj\Debug\RemoteObject.pdb
-D:\0. 개인업무\00. 개발\ObserveService\RemoteObject\bin\Debug\ObserveService.exe
-D:\0. 개인업무\00. 개발\ObserveService\RemoteObject\bin\Debug\ObserveService.pdb
-D:\0. 개인업무\00. 개발\ObserveService\RemoteObject\bin\Debug\ObserveService.exe.config
 D:\0. 개인업무\00. 개발\ObserveService\RemoteObject\obj\Debug\RemoteObject.csprojResolveAssemblyReference.cache

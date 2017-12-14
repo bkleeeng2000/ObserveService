@@ -13,6 +13,7 @@ using System.Runtime.Remoting.Channels.Ipc;
 using System.Runtime.Remoting.Channels;
 using System.Runtime.Remoting;
 using RemoteObject;
+using System.Collections;
 
 namespace ServiceA
 {
@@ -22,6 +23,9 @@ namespace ServiceA
         /// Timer Class
         /// </summary>
         private Timer timer;
+        BinaryServerFormatterSinkProvider serverProvider;
+        IpcServerChannel serverChannel;
+
 
         public ServiceA()
         {
@@ -30,14 +34,28 @@ namespace ServiceA
 
         protected override void OnStart(string[] args)
         {
-            IpcServerChannel serverChannel = new IpcServerChannel("remote");
-            ChannelServices.RegisterChannel(serverChannel,false);
-            RemotingConfiguration.RegisterWellKnownServiceType(typeof(RmtObject), "counter", WellKnownObjectMode.SingleCall);
-
+            Init_IpcServer("RemoteA", "Object");
             Log("ServiceA Start");
+            Log(serverChannel.GetChannelUri());
             timer = new Timer(5*1000);  //interval = 5초마다 실행
             timer.Elapsed += Timer_Elapsed;
             timer.Start();
+        }
+
+        private void Init_IpcServer(string channel, string uri)
+        {
+
+            serverProvider = new BinaryServerFormatterSinkProvider();
+
+            IDictionary prop = new Hashtable
+            {
+                ["portName"] = channel,
+                ["authorizedGroup"] = "Everyone"
+            };
+
+            serverChannel = new IpcServerChannel(prop,serverProvider);
+            ChannelServices.RegisterChannel(serverChannel, false);
+            RemotingConfiguration.RegisterWellKnownServiceType(typeof(RmtObject), uri, WellKnownObjectMode.SingleCall);
         }
 
         private void Timer_Elapsed(object sender, ElapsedEventArgs e)
@@ -49,7 +67,6 @@ namespace ServiceA
 
             if (serviceController.Status.Equals(ServiceControllerStatus.Stopped))
                 serviceController.Start();
-            
         }
 
         protected override void OnStop()

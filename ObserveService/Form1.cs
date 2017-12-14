@@ -12,6 +12,8 @@ using System.Runtime.Remoting.Channels;
 using System.Runtime.Remoting.Channels.Ipc;
 using System.Windows.Forms;
 using RemoteObject;
+using System.Diagnostics;
+using System.Collections;
 
 namespace ObserveService
 {
@@ -25,10 +27,19 @@ namespace ObserveService
         {
             InitializeComponent();
 
-            IpcClientChannel clientChannel = new IpcClientChannel();
-            ChannelServices.RegisterChannel(clientChannel,false);
+            BinaryClientFormatterSinkProvider clientProvider = new BinaryClientFormatterSinkProvider();
 
-            RemotingConfiguration.RegisterWellKnownClientType(typeof(RmtObject), "ipc://remote/counter");
+            IDictionary prop = new Hashtable
+            {
+                ["portName"] = "Client",
+                ["authorizedGroup"] = "Everyone"
+            };
+
+
+            IpcClientChannel clientChannel = new IpcClientChannel(prop,clientProvider);
+            ChannelServices.RegisterChannel(clientChannel, false);
+
+            RemotingConfiguration.RegisterWellKnownClientType(typeof(RmtObject), "ipc://RemoteA/Object");
 
             timer.Interval = 1000;
             timer.Tick += Timer_Tick;
@@ -37,10 +48,24 @@ namespace ObserveService
 
         private void Timer_Tick(object sender, EventArgs e)
         {
+            try
+            {
+                int temp;
+                RmtObject rmtObject = new RmtObject();
+                temp = rmtObject.Count;
+                label4.Text = rmtObject.Count.ToString();
+            }
+            catch (RemotingException ex)
+            {
+                Debug.WriteLine(ex);
+                label4.Text = "Ipc 연결 되지 않음";
+                
+            }
             serviceA.Refresh();
             serviceB.Refresh();
             ServiceA_Status.Text = serviceA.Status.ToString();
             ServiceB_Status.Text = serviceB.Status.ToString();
+
         }
 
         private void ServicaA_On_Click(object sender, EventArgs e)

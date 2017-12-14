@@ -33,3 +33,76 @@ D:\0. 개인업무\00. 개발\ObserveService\ServiceB\bin\Debug\ServiceB.exe 어
 Commit 단계가 완료되었습니다.
 
 트랜잭트 설치가 완료되었습니다.
+
+
+제거를 시작하고 있습니다.
+D:\0. 개인업무\00. 개발\ObserveService\ServiceB\bin\Debug\ServiceB.exe 어셈블리의 진행 상황을 보려면 로그 파일 내용을 검토하십시오.
+파일은 D:\0. 개인업무\00. 개발\ObserveService\ServiceB\bin\Debug\ServiceB.InstallLog 위치에 있습니다.
+
+제거가 완료되었습니다.
+
+트랜잭트 설치를 실행하고 있습니다.
+
+설치의 Install 단계를 시작하고 있습니다.
+D:\0. 개인업무\00. 개발\ObserveService\ServiceB\bin\Debug\ServiceB.exe 어셈블리의 진행 상황을 보려면 로그 파일 내용을 검토하십시오.
+파일은 D:\0. 개인업무\00. 개발\ObserveService\ServiceB\bin\Debug\ServiceB.InstallLog 위치에 있습니다.
+
+Install 단계를 진행하는 동안 예외가 발생했습니다.
+System.ArgumentOutOfRangeException: 인덱스 및 길이는 문자열 내의 위치를 참조해야 합니다.
+매개 변수 이름: length
+
+설치의 Rollback 단계를 시작하고 있습니다.
+D:\0. 개인업무\00. 개발\ObserveService\ServiceB\bin\Debug\ServiceB.exe 어셈블리의 진행 상황을 보려면 로그 파일 내용을 검토하십시오.
+파일은 D:\0. 개인업무\00. 개발\ObserveService\ServiceB\bin\Debug\ServiceB.InstallLog 위치에 있습니다.
+
+Rollback 단계가 완료되었습니다.
+
+트랜잭트 설치가 완료되었습니다.
+
+트랜잭트 설치를 실행하고 있습니다.
+
+설치의 Install 단계를 시작하고 있습니다.
+D:\0. 개인업무\00. 개발\ObserveService\ServiceB\bin\Debug\ServiceB.exe 어셈블리의 진행 상황을 보려면 로그 파일 내용을 검토하십시오.
+파일은 D:\0. 개인업무\00. 개발\ObserveService\ServiceB\bin\Debug\ServiceB.InstallLog 위치에 있습니다.
+
+Install 단계를 진행하는 동안 예외가 발생했습니다.
+System.ComponentModel.Win32Exception: 지정한 도메인이 없거나 연결할 수 없습니다
+
+설치의 Rollback 단계를 시작하고 있습니다.
+D:\0. 개인업무\00. 개발\ObserveService\ServiceB\bin\Debug\ServiceB.exe 어셈블리의 진행 상황을 보려면 로그 파일 내용을 검토하십시오.
+파일은 D:\0. 개인업무\00. 개발\ObserveService\ServiceB\bin\Debug\ServiceB.InstallLog 위치에 있습니다.
+
+Rollback 단계가 완료되었습니다.
+
+트랜잭트 설치가 완료되었습니다.
+
+트랜잭트 설치를 실행하고 있습니다.
+
+설치의 Install 단계를 시작하고 있습니다.
+D:\0. 개인업무\00. 개발\ObserveService\ServiceB\bin\Debug\ServiceB.exe 어셈블리의 진행 상황을 보려면 로그 파일 내용을 검토하십시오.
+파일은 D:\0. 개인업무\00. 개발\ObserveService\ServiceB\bin\Debug\ServiceB.InstallLog 위치에 있습니다.
+
+Install 단계를 진행하는 동안 예외가 발생했습니다.
+System.InvalidOperationException: 사용자가 실행 파일 D:\0. 개인업무\00. 개발\ObserveService\ServiceB\bin\Debug\ServiceB.exe에서 서비스 설치를 취소했습니다.
+
+설치의 Rollback 단계를 시작하고 있습니다.
+D:\0. 개인업무\00. 개발\ObserveService\ServiceB\bin\Debug\ServiceB.exe 어셈블리의 진행 상황을 보려면 로그 파일 내용을 검토하십시오.
+파일은 D:\0. 개인업무\00. 개발\ObserveService\ServiceB\bin\Debug\ServiceB.InstallLog 위치에 있습니다.
+
+Rollback 단계가 완료되었습니다.
+
+트랜잭트 설치가 완료되었습니다.
+
+트랜잭트 설치를 실행하고 있습니다.
+
+설치의 Install 단계를 시작하고 있습니다.
+D:\0. 개인업무\00. 개발\ObserveService\ServiceB\bin\Debug\ServiceB.exe 어셈블리의 진행 상황을 보려면 로그 파일 내용을 검토하십시오.
+파일은 D:\0. 개인업무\00. 개발\ObserveService\ServiceB\bin\Debug\ServiceB.InstallLog 위치에 있습니다.
+
+Install 단계는 완료되었으며 Commit 단계를 시작하고 있습니다.
+D:\0. 개인업무\00. 개발\ObserveService\ServiceB\bin\Debug\ServiceB.exe 어셈블리의 진행 상황을 보려면 로그 파일 내용을 검토하십시오.
+파일은 D:\0. 개인업무\00. 개발\ObserveService\ServiceB\bin\Debug\ServiceB.InstallLog 위치에 있습니다.
+
+Commit 단계가 완료되었습니다.
+
+트랜잭트 설치가 완료되었습니다.

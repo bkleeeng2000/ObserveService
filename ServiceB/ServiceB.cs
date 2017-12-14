@@ -21,16 +21,21 @@ namespace ServiceB
 
         protected override void OnStart(string[] args)
         {
-
-            //IpcServerChannel serverChannel = new IpcServerChannel("remote");
-            //ChannelServices.RegisterChannel(serverChannel, false);
-            //RemotingConfiguration.RegisterWellKnownServiceType(typeof(RmtObject), "counter", WellKnownObjectMode.SingleCall);
-
+            //Init_IpcServer("RemoteB", "Object");
+            
             Log("ServiceB Start");
             timer = new Timer(5 * 1000);  //interval = 5초마다 실행
             timer.Elapsed += Timer_Elapsed;
             timer.Start();
         }
+
+        private void Init_IpcServer(string channel, string uri)
+        {
+            IpcServerChannel serverChannel = new IpcServerChannel(channel);
+            ChannelServices.RegisterChannel(serverChannel, false);
+            RemotingConfiguration.RegisterWellKnownServiceType(typeof(RmtObject), uri, WellKnownObjectMode.SingleCall);
+        }
+
 
         private void Timer_Elapsed(object sender, ElapsedEventArgs e)
         {
